@@ -29,4 +29,5 @@ with app.app_context():
     db.session.add_all(pets)
 
     # Commit the transaction
-    db.session.commit()
+    db.session.commit()  
+    
